@@ -1,0 +1,114 @@
+.paginaFeed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(183, 210, 234);
+}
+
+.linhaDoTempo {
+  display: flex;
+  background-color: rgb(79, 123, 192);
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  min-height: calc(100vh - 78.52px - 150px);
+  padding: 48px;
+  box-sizing: border-box;
+}
+
+.linhaDoTempo .post {
+  background-color: aliceblue;
+  width: 400px;
+  margin: 24px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.linhaDoTempo .post .post-nome {
+  padding: 4px 8px;
+  background-color: rgb(92, 132, 164);
+  width: 100%;
+  color: aliceblue;
+  box-sizing: border-box;
+  border-radius: 12px 12px 0px 0px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.linhaDoTempo .post .post-mensagem {
+  padding: 4px 8px;
+  margin: 0px;
+}
+
+.linhaDoTempo .post .post-likes {
+  padding: 4px 8px;
+  font-weight: bold;
+  margin: 0px;
+}
+.linhaDoTempo .post .aligningLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.linhaDoTempo .post .darLike {
+  margin: 4px 8px;
+  padding: 4px;
+  border: none;
+  background-color: rgb(129, 196, 255);
+  font-weight: bold;
+  /* border-radius: 4px; */
+  color: aliceblue;
+}
+
+.adicionarComentario {
+  display: flex;
+  box-sizing: border-box;
+  padding: 8px;
+  background-color: rgb(45, 75, 122);
+  height: 150px;
+  width: 100%;
+}
+
+.adicionarComentario .content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.adicionarComentario .content .caixaDeTexto {
+  width: 100%;
+  height: 120px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 14px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.adicionarComentario .content .caixaDeTexto:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.adicionarComentario .content .buttonCaixaDeTexto {
+  display: flex;
+  margin-top: 4px;
+  justify-content: end;
+}
+
+.adicionarComentario .content .buttonCaixaDeTexto .button {
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 8px;
+  background-color: rgb(15, 44, 95);
+  cursor: pointer;
+}
+
+.adicionarComentario .content .buttonCaixaDeTexto .button:hover {
+  background-color: rgb(70, 94, 135);
+}

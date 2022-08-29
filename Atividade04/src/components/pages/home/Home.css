@@ -1,0 +1,118 @@
+.paginaFeed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(183, 210, 234);
+}
+
+.nav {
+  display: flex;
+  width: 700px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(54, 100, 168);
+}
+
+.nav .conteudoEsquerda {
+  display: flex;
+  align-items: center;
+}
+.nav .conteudoEsquerda .logo {
+  padding: 8px;
+  width: 50px;
+  height: 50px;
+}
+
+.nav .conteudoEsquerda .buttons {
+  padding: 16px;
+}
+
+.nav .conteudoEsquerda .buttons .buttonNav {
+  background-color: rgb(36, 80, 151);
+  color: white;
+  border: none;
+  /* border-radius: 4px; */
+  padding: 8px;
+  margin: 8px;
+}
+
+.nav .conteudoEsquerda .buttons .buttonNav:hover {
+  background-color: rgb(90, 129, 190);
+}
+
+.nav .conteudoEsquerda .buttons .buttonNav.active {
+  background-color: rgb(215, 238, 255);
+  border: none;
+  color: black;
+  /* border-radius: 4px; */
+  padding: 8px;
+  margin: 8px;
+}
+
+.nav .conteudoEsquerda .buttons .buttonNav.active:hover {
+  background-color: rgb(116, 170, 211);
+  color: white;
+}
+
+.nav .nomePessoaLogada {
+  padding: 8px 28px;
+  color: white;
+  font-weight: bold;
+}
+
+.linhaDoTempo {
+  display: flex;
+  background-color: rgb(130, 170, 207);
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  min-height: calc(100vh - 78.52px);
+  padding: 48px;
+  box-sizing: border-box;
+}
+
+.linhaDoTempo .post {
+  background-color: aliceblue;
+  width: 400px;
+  margin: 24px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.linhaDoTempo .post .post-nome {
+  padding: 4px 8px;
+  background-color: rgb(92, 132, 164);
+  width: 100%;
+  color: aliceblue;
+  box-sizing: border-box;
+  border-radius: 12px 12px 0px 0px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.linhaDoTempo .post .post-mensagem {
+  padding: 4px 8px;
+  margin: 0px;
+}
+
+.linhaDoTempo .post .post-likes {
+  padding: 4px 8px;
+  font-weight: bold;
+  margin: 0px;
+}
+.linhaDoTempo .post .aligningLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.linhaDoTempo .post .darLike {
+  margin: 4px 8px;
+  padding: 4px;
+  border: none;
+  background-color: rgb(129, 196, 255);
+  font-weight: bold;
+  /* border-radius: 4px; */
+  color: aliceblue;
+}

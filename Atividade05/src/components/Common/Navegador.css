@@ -1,0 +1,54 @@
+.nav {
+  display: flex;
+  width: 700px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(54, 100, 168);
+}
+
+.nav .conteudoEsquerda {
+  display: flex;
+  align-items: center;
+}
+.nav .conteudoEsquerda .logo {
+  padding: 8px;
+  width: 50px;
+  height: 50px;
+}
+
+.nav .conteudoEsquerda .buttons {
+  padding: 16px;
+}
+
+.nav .conteudoEsquerda .buttons .buttonNav {
+  background-color: rgb(36, 80, 151);
+  color: white;
+  border: none;
+  /* border-radius: 4px; */
+  padding: 8px;
+  margin: 8px;
+}
+
+.nav .conteudoEsquerda .buttons .buttonNav:hover {
+  background-color: rgb(90, 129, 190);
+}
+
+.nav .conteudoEsquerda .buttons .buttonNav.active {
+  background-color: rgb(215, 238, 255);
+  outline: 1px solid rgb(14, 47, 99);
+  color: black;
+  /* border-radius: 4px; */
+  padding: 8px;
+  margin: 8px;
+}
+
+.nav .conteudoEsquerda .buttons .buttonNav.active:hover {
+  background-color: rgb(116, 170, 211);
+  color: white;
+}
+
+.nav .nomePessoaLogada {
+  padding: 8px 28px;
+  color: white;
+  font-weight: bold;
+}
